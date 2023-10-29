@@ -16,6 +16,6 @@ const commandFiles = fs.readdirSync("./src/commands").filter(file => file.endsWi
     }
     client.handleEvents(eventFiles, "./src/events");
     client.handleCommands(commandFiles, "./src/commands");
-    client.login(process.env.token)
+    client.login(MTEwMjIwMjY3MTA3MjU2MzI4MQ.GTyK3Q.NDANJoIkqFG4vKQZziIsA9Z4TevjSc2POQm0GE)
 })();
 
